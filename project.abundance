@@ -1909,17 +1909,17 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "placements": [
             [
               {
                 "id": 0,
-                "rotate": 120,
+                "rotate": 0,
                 "translate": {
-                  "x": 174.9730774217297,
-                  "y": 174.97307742172964
+                  "x": 5,
+                  "y": 5
                 }
               }
             ]
@@ -1985,17 +1985,17 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "placements": [
             [
               {
                 "id": 0,
-                "rotate": 90,
+                "rotate": 0,
                 "translate": {
-                  "x": 105.19999999999999,
-                  "y": 296.13381822093726
+                  "x": 5,
+                  "y": 5
                 }
               }
             ]
@@ -2061,17 +2061,17 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "placements": [
             [
               {
                 "id": 0,
-                "rotate": 270,
+                "rotate": 0,
                 "translate": {
-                  "x": 127.70000000000006,
-                  "y": 295.20000000000005
+                  "x": 5,
+                  "y": 5
                 }
               }
             ]
@@ -2114,8 +2114,8 @@
         },
         {
           "atomType": "CutLayout",
-          "x": 0.6332254584681769,
-          "y": 0.5427251732101617,
+          "x": 0.6364617044228694,
+          "y": 0.5542725173210161,
           "uniqueID": "id-13969",
           "name": "Cut Layout",
           "ioValues": [
@@ -2137,10 +2137,29 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
-          "placements": []
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 0,
+                "translate": {
+                  "x": 5,
+                  "y": 5
+                }
+              },
+              {
+                "id": 1,
+                "rotate": 0,
+                "translate": {
+                  "x": 5,
+                  "y": 5
+                }
+              }
+            ]
+          ]
         },
         {
           "atomType": "Gcode",
@@ -2202,17 +2221,17 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "placements": [
             [
               {
                 "id": 0,
-                "rotate": 30,
+                "rotate": 0,
                 "translate": {
-                  "x": 316.72764987085657,
-                  "y": 323.78536492918823
+                  "x": 5,
+                  "y": 5
                 }
               }
             ]
@@ -2278,17 +2297,17 @@
             },
             {
               "name": "Orientations",
-              "ioValue": 12
+              "ioValue": 2
             }
           ],
           "placements": [
             [
               {
                 "id": 0,
-                "rotate": 60,
+                "rotate": 0,
                 "translate": {
-                  "x": 255.585865605221,
-                  "y": 317.3526498708584
+                  "x": 5,
+                  "y": 5
                 }
               }
             ]
