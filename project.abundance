@@ -11,7 +11,7 @@
     },
     {
       "name": "WaterHeight",
-      "ioValue": 120
+      "ioValue": 130
     },
     {
       "name": "ToothHeight",
@@ -50,7 +50,8 @@
     },
     {
       "name": "BaseHeight",
-      "ioValue": 30
+      "ioValue": 30,
+      "currentEquation": "30"
     },
     {
       "name": "Clearance",
@@ -258,7 +259,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "WaterHeight+2*ToothHeight + r"
@@ -280,7 +281,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "WaterHeight + .5*AxleDiameter + r +ToothHeight + Clearance + TopThick"
@@ -294,7 +295,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "BaseHeight / (-.5*BedPlate + r + ToothHeight + Clearance + 2*LiftingBoltDiameter + NutDiameter)"
@@ -308,7 +309,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "WaterHeight+3*ToothHeight + 2*r + Clearance + 2*LiftingBoltDiameter + NutDiameter"
@@ -322,7 +323,7 @@
       "ioValues": [
         {
           "name": "T",
-          "ioValue": 0.3
+          "ioValue": 0.2727272727272727
         }
       ],
       "currentEquation": "atan(T) * 180/ pi"
@@ -336,7 +337,7 @@
       "ioValues": [
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "r + ToothHeight + Clearance"
@@ -354,7 +355,7 @@
         },
         {
           "name": "r",
-          "ioValue": 90
+          "ioValue": 100
         }
       ],
       "currentEquation": "- (WaterHeight - 3*HingeAxleDiameter) * sin(TSR) /(1- sin(TSR)) + r + ToothHeight + Clearance"
@@ -2206,26 +2207,7 @@
               "ioValue": 12
             }
           ],
-          "placements": [
-            [
-              {
-                "id": 0,
-                "rotate": 270,
-                "translate": {
-                  "x": 120.77338330000002,
-                  "y": 283.95
-                }
-              },
-              {
-                "id": 1,
-                "rotate": 60,
-                "translate": {
-                  "x": 31.605921995902044,
-                  "y": 226.1555519962107
-                }
-              }
-            ]
-          ]
+          "placements": []
         },
         {
           "atomType": "Gcode",
@@ -2718,11 +2700,11 @@
         },
         {
           "name": "RotorRadius",
-          "ioValue": 90
+          "ioValue": 100
         },
         {
           "name": "UpSlope",
-          "ioValue": 16.69924423399362
+          "ioValue": 15.255118703057775
         },
         {
           "name": "DownSlope",
@@ -2770,19 +2752,19 @@
         },
         {
           "name": "AxleX",
-          "ioValue": 220
+          "ioValue": 240
         },
         {
           "name": "AxleY",
-          "ioValue": 130
+          "ioValue": 140
         },
         {
           "name": "MachineLength",
-          "ioValue": 340
+          "ioValue": 370
         },
         {
           "name": "MachineHeight",
-          "ioValue": 260
+          "ioValue": 280
         },
         {
           "name": "PillowBlock",
@@ -2809,7 +2791,7 @@
         },
         {
           "name": "WaterHeight",
-          "ioValue": 120,
+          "ioValue": 130,
           "currentEquation": "WaterHeight"
         },
         {
@@ -3118,22 +3100,22 @@
           "ioValues": [
             {
               "name": "MachineLength",
-              "ioValue": 340,
+              "ioValue": 370,
               "currentEquation": "MachineLength"
             },
             {
               "name": "MachineHeight",
-              "ioValue": 260,
+              "ioValue": 280,
               "currentEquation": "MachineHeight"
             },
             {
               "name": "AxleX",
-              "ioValue": 220,
+              "ioValue": 240,
               "currentEquation": "AxleX"
             },
             {
               "name": "AxleY",
-              "ioValue": 130,
+              "ioValue": 140,
               "currentEquation": "AxleY"
             },
             {
@@ -3216,11 +3198,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "y length",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ]
             },
@@ -3264,7 +3246,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 340
+                  "ioValue": 370
                 }
               ],
               "currentEquation": "x/2"
@@ -3278,7 +3260,7 @@
               "ioValues": [
                 {
                   "name": "y",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ],
               "currentEquation": "y/2"
@@ -3295,11 +3277,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 170
+                  "ioValue": 185
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -3319,11 +3301,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -3348,7 +3330,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -3559,7 +3541,7 @@
             },
             {
               "name": "RotorRadius",
-              "ioValue": 90,
+              "ioValue": 100,
               "currentEquation": "RotorRadius"
             },
             {
@@ -3579,22 +3561,22 @@
             },
             {
               "name": "AxleX",
-              "ioValue": 220,
+              "ioValue": 240,
               "currentEquation": "AxleX"
             },
             {
               "name": "AxleY",
-              "ioValue": 130,
+              "ioValue": 140,
               "currentEquation": "AxleY"
             },
             {
               "name": "MachineLength",
-              "ioValue": 340,
+              "ioValue": 370,
               "currentEquation": "MachineLength"
             },
             {
               "name": "MachineHeight",
-              "ioValue": 260,
+              "ioValue": 280,
               "currentEquation": "MachineHeight"
             },
             {
@@ -3799,7 +3781,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "y length",
@@ -3824,7 +3806,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 340
+                  "ioValue": 370
                 }
               ],
               "currentEquation": "x/2"
@@ -3842,7 +3824,7 @@
                 },
                 {
                   "name": "MachineHeightNew",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ],
               "currentEquation": "-y/2 + MachineHeightNew"
@@ -3859,11 +3841,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 170
+                  "ioValue": 185
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 250
+                  "ioValue": 270
                 },
                 {
                   "name": "zDist",
@@ -3880,7 +3862,7 @@
               "ioValues": [
                 {
                   "name": "MachineHeightNew",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ],
               "currentEquation": "MachineHeightNew - AxleY - TopThick -2*NutThick + Gap"
@@ -3908,7 +3890,7 @@
               "ioValues": [
                 {
                   "name": "MachineHeightNew",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ],
               "currentEquation": "90 -atan(1.5*HingeAxleDiameter/(.5*(MachineHeightNew - AxleY)))* 180/pi"
@@ -3922,7 +3904,7 @@
               "ioValues": [
                 {
                   "name": "MachineHeightNew",
-                  "ioValue": 260
+                  "ioValue": 280
                 }
               ],
               "currentEquation": "(MachineHeightNew- AxleY)"
@@ -3939,7 +3921,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 130
+                  "ioValue": 140
                 }
               ]
             },
@@ -3967,7 +3949,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -3995,7 +3977,7 @@
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 70.90650799951439
+                  "ioValue": 72.18111108547723
                 }
               ]
             },
@@ -4015,7 +3997,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -4111,11 +4093,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -4147,7 +4129,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 417
+                  "ioValue": 457
                 }
               ]
             },
@@ -4159,7 +4141,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 373
+                  "ioValue": 413
                 }
               ]
             },
@@ -4243,7 +4225,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -4295,11 +4277,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 240
+                  "ioValue": 260
                 },
                 {
                   "name": "zDist",
@@ -4316,7 +4298,7 @@
               "ioValues": [
                 {
                   "name": "MachineHeightNew",
-                  "ioValue": 260
+                  "ioValue": 280
                 },
                 {
                   "name": "tt",
@@ -4349,7 +4331,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 608.789783094296
+                  "ioValue": 672.0305052599919
                 }
               ]
             },
@@ -4369,7 +4351,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -4394,11 +4376,11 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 100
+                  "ioValue": 110
                 },
                 {
                   "name": "y",
-                  "ioValue": 287.5
+                  "ioValue": 317.5
                 }
               ],
               "currentEquation": "2* sqrt(x^2 + y^2)"
@@ -4519,11 +4501,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 320
+                  "ioValue": 350
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 260
+                  "ioValue": 280
                 },
                 {
                   "name": "zDist",
@@ -5005,22 +4987,22 @@
             },
             {
               "name": "AxleX",
-              "ioValue": 220,
+              "ioValue": 240,
               "currentEquation": "AxleX"
             },
             {
               "name": "AxleY",
-              "ioValue": 130,
+              "ioValue": 140,
               "currentEquation": "AxleY"
             },
             {
               "name": "MachineLength",
-              "ioValue": 340,
+              "ioValue": 370,
               "currentEquation": "MachineLength"
             },
             {
               "name": "MachineHeight",
-              "ioValue": 260,
+              "ioValue": 280,
               "currentEquation": "MachineHeight"
             },
             {
@@ -5034,7 +5016,7 @@
             },
             {
               "name": "WaterHeight",
-              "ioValue": 120,
+              "ioValue": 130,
               "currentEquation": "WaterHeight"
             },
             {
@@ -5187,11 +5169,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "y length",
-                  "ioValue": 120
+                  "ioValue": 130
                 }
               ]
             },
@@ -5204,7 +5186,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 340
+                  "ioValue": 370
                 }
               ],
               "currentEquation": "x/2"
@@ -5218,7 +5200,7 @@
               "ioValues": [
                 {
                   "name": "y",
-                  "ioValue": 120
+                  "ioValue": 130
                 }
               ],
               "currentEquation": "y/2"
@@ -5235,11 +5217,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 170
+                  "ioValue": 185
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 60
+                  "ioValue": 65
                 },
                 {
                   "name": "zDist",
@@ -5283,11 +5265,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -5375,7 +5357,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "zDist",
@@ -5559,12 +5541,12 @@
             },
             {
               "name": "RotorRadius",
-              "ioValue": 90,
+              "ioValue": 100,
               "currentEquation": "RotorRadius"
             },
             {
               "name": "UpSlope",
-              "ioValue": 16.69924423399362,
+              "ioValue": 15.255118703057775,
               "currentEquation": "UpSlope"
             },
             {
@@ -5614,22 +5596,22 @@
             },
             {
               "name": "AxleX",
-              "ioValue": 220,
+              "ioValue": 240,
               "currentEquation": "AxleX"
             },
             {
               "name": "AxleY",
-              "ioValue": 130,
+              "ioValue": 140,
               "currentEquation": "AxleY"
             },
             {
               "name": "MachineLength",
-              "ioValue": 340,
+              "ioValue": 370,
               "currentEquation": "MachineLength"
             },
             {
               "name": "MachineHeight",
-              "ioValue": 260,
+              "ioValue": 280,
               "currentEquation": "MachineHeight"
             },
             {
@@ -5649,7 +5631,7 @@
             },
             {
               "name": "WaterHeight",
-              "ioValue": 120,
+              "ioValue": 130,
               "currentEquation": "WaterHeight"
             },
             {
@@ -5930,11 +5912,11 @@
                 },
                 {
                   "name": "RotorRadius",
-                  "ioValue": 90
+                  "ioValue": 100
                 },
                 {
                   "name": "UpSlope",
-                  "ioValue": 16.69924423399362
+                  "ioValue": 15.255118703057775
                 },
                 {
                   "name": "DownSlope",
@@ -5953,15 +5935,15 @@
                 },
                 {
                   "name": "AxleX",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "AxleY",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "MachineLength",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "Clearance",
@@ -5975,7 +5957,7 @@
                 },
                 {
                   "name": "WaterHeight",
-                  "ioValue": 120,
+                  "ioValue": 130,
                   "currentEquation": "WaterHeight"
                 },
                 {
@@ -6113,7 +6095,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 200
+                      "ioValue": 220
                     }
                   ]
                 },
@@ -6136,11 +6118,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 130
+                      "ioValue": 140
                     },
                     {
                       "name": "zDist",
@@ -6168,7 +6150,7 @@
                     },
                     {
                       "name": "z-axis degrees",
-                      "ioValue": -16.69924423399362
+                      "ioValue": -15.255118703057775
                     }
                   ]
                 },
@@ -6184,7 +6166,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 340
+                      "ioValue": 370
                     },
                     {
                       "name": "yDist",
@@ -6208,7 +6190,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -110
+                      "ioValue": -120
                     },
                     {
                       "name": "yDist",
@@ -6288,7 +6270,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
@@ -6350,7 +6332,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 120
+                      "ioValue": 130
                     },
                     {
                       "name": "zDist",
@@ -6406,7 +6388,7 @@
                   "ioValues": [
                     {
                       "name": "T",
-                      "ioValue": 16.69924423399362
+                      "ioValue": 15.255118703057775
                     }
                   ],
                   "currentEquation": "- T"
@@ -6629,7 +6611,7 @@
                 },
                 {
                   "name": "RotorRadius",
-                  "ioValue": 90
+                  "ioValue": 100
                 },
                 {
                   "name": "TopSlope",
@@ -6652,19 +6634,19 @@
                 },
                 {
                   "name": "AxleX",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "AxleY",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "MachineLength",
-                  "ioValue": 340
+                  "ioValue": 370
                 },
                 {
                   "name": "MachineHeight",
-                  "ioValue": 260
+                  "ioValue": 280
                 },
                 {
                   "name": "Clearance",
@@ -6673,7 +6655,7 @@
                 },
                 {
                   "name": "WaterHeight",
-                  "ioValue": 120,
+                  "ioValue": 130,
                   "currentEquation": "WaterHeight"
                 }
               ],
@@ -6798,7 +6780,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 200
+                      "ioValue": 220
                     }
                   ]
                 },
@@ -6814,11 +6796,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 130
+                      "ioValue": 140
                     },
                     {
                       "name": "zDist",
@@ -6887,7 +6869,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 129.90381056766577
+                      "ioValue": 147.22431864335456
                     }
                   ],
                   "currentEquation": "x/2"
@@ -6900,11 +6882,11 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 129.90381056766577
+                      "ioValue": 147.22431864335456
                     },
                     {
                       "name": "y length",
-                      "ioValue": 100
+                      "ioValue": 110
                     }
                   ]
                 },
@@ -6928,11 +6910,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 64.95190528383289
+                      "ioValue": 73.61215932167728
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -24.999999999999986
+                      "ioValue": -29.999999999999986
                     },
                     {
                       "name": "zDist",
@@ -6961,7 +6943,7 @@
                   "ioValues": [
                     {
                       "name": "y",
-                      "ioValue": 100
+                      "ioValue": 110
                     }
                   ],
                   "currentEquation": "- y/2"
@@ -6975,7 +6957,7 @@
                   "ioValues": [
                     {
                       "name": "Y",
-                      "ioValue": -50
+                      "ioValue": -55
                     }
                   ],
                   "currentEquation": "Y + CoverCurve"
@@ -7012,11 +6994,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -129.90381056766577
+                      "ioValue": -147.22431864335456
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 74.99999999999999
+                      "ioValue": 84.99999999999999
                     },
                     {
                       "name": "zDist",
@@ -7033,7 +7015,7 @@
                   "ioValues": [
                     {
                       "name": "y",
-                      "ioValue": 100
+                      "ioValue": 110
                     }
                   ],
                   "currentEquation": "- CoverCurve + y"
@@ -7047,7 +7029,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 129.90381056766577
+                      "ioValue": 147.22431864335456
                     }
                   ],
                   "currentEquation": "-x"
@@ -7089,11 +7071,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 130
+                      "ioValue": 140
                     },
                     {
                       "name": "zDist",
@@ -7113,7 +7095,7 @@
                     },
                     {
                       "name": "y length",
-                      "ioValue": 120,
+                      "ioValue": 130,
                       "currentEquation": "WaterHeight"
                     }
                   ]
@@ -7134,7 +7116,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -60,
+                      "ioValue": -65,
                       "currentEquation": "-.5 * WaterHeight"
                     },
                     {
@@ -7176,11 +7158,11 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 200
+                      "ioValue": 220
                     },
                     {
                       "name": "y length",
-                      "ioValue": 120,
+                      "ioValue": 130,
                       "currentEquation": "WaterHeight"
                     }
                   ]
@@ -7194,7 +7176,7 @@
                   "ioValues": [
                     {
                       "name": "R",
-                      "ioValue": 100
+                      "ioValue": 110
                     }
                   ],
                   "currentEquation": "2*R"
@@ -7211,11 +7193,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 60
+                      "ioValue": 65
                     },
                     {
                       "name": "zDist",
@@ -7247,11 +7229,11 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 340
+                      "ioValue": 370
                     },
                     {
                       "name": "y length",
-                      "ioValue": 120
+                      "ioValue": 130
                     }
                   ]
                 },
@@ -7267,11 +7249,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 170
+                      "ioValue": 185
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 45
+                      "ioValue": 50
                     },
                     {
                       "name": "zDist",
@@ -7288,7 +7270,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 340
+                      "ioValue": 370
                     }
                   ],
                   "currentEquation": "x/2"
@@ -7818,7 +7800,7 @@
                 },
                 {
                   "name": "RotorRadius",
-                  "ioValue": 90
+                  "ioValue": 100
                 },
                 {
                   "name": "Tooth",
@@ -7831,11 +7813,11 @@
                 },
                 {
                   "name": "AxleX",
-                  "ioValue": 220
+                  "ioValue": 240
                 },
                 {
                   "name": "AxleY",
-                  "ioValue": 130
+                  "ioValue": 140
                 },
                 {
                   "name": "AxleDiameter",
@@ -7894,7 +7876,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 180
+                      "ioValue": 200
                     }
                   ]
                 },
@@ -7976,7 +7958,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 90
+                      "ioValue": 100
                     },
                     {
                       "name": "zDist",
@@ -7996,11 +7978,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 130
+                      "ioValue": 140
                     },
                     {
                       "name": "zDist",
@@ -8127,7 +8109,7 @@
                   "ioValues": [
                     {
                       "name": "r",
-                      "ioValue": 90
+                      "ioValue": 100
                     }
                   ],
                   "currentEquation": "r*2"
@@ -8304,11 +8286,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 220
+                      "ioValue": 240
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 130
+                      "ioValue": 140
                     },
                     {
                       "name": "zDist",
