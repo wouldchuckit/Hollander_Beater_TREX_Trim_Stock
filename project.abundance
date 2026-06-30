@@ -25,7 +25,8 @@
     },
     {
       "name": "AxleDiameter",
-      "ioValue": 20
+      "ioValue": 20,
+      "currentEquation": "20"
     },
     {
       "name": "HingeAxleDiameter",
