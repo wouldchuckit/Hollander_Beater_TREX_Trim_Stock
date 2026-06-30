@@ -31,7 +31,7 @@
 
  ### 
 
-In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
+In this case I have 10 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
 
 ![readme](/readmeid-10954.svg?v=ofim38)
 
