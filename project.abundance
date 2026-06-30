@@ -1207,8 +1207,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.09169363538295577,
-          "y": 0.9237875288683602,
+          "x": 0.0889967637540453,
+          "y": 0.9491916859122402,
           "uniqueID": "id-10930",
           "ioValues": [
             {
@@ -1236,10 +1236,6 @@
           "y": 0.7736720554272518,
           "uniqueID": "id-10936",
           "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
             {
               "name": "Shape 2",
               "ioValue": null
@@ -1668,11 +1664,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-10916",
           "ap2ID": "id-10930"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-10916",
-          "ap2ID": "id-10936"
         },
         {
           "ap2Name": "Shape 2",
