@@ -1523,8 +1523,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 476.25,
-              "currentEquation": "25*WoodThick"
+              "ioValue": 266.7,
+              "currentEquation": "14*WoodThick"
             }
           ]
         },
