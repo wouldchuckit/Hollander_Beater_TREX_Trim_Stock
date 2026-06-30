@@ -31,11 +31,7 @@
 
  ### 
 
-In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
-
-![readme](/readmeid-10954.svg?v=xsx6hq)
-
-
+In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers. 
 
 ### PartsContainer
 
@@ -46,21 +42,17 @@ In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand
 This one is made in 4 pieces of 5 to result in 20 rotated pieces. 
 You would need to manually adjust and copy for different numbers of rotor teeth.  
 
-![readme](/readmeid-3412.svg?v=n5jeapt)
+![readme](/readmeid-3412.svg?v=wg3gqs)
 
 
 
 I intend to drill holes through the rotor and teeth when it is all assembled for stainless steel screws to go through the teeth to hold them in. Currently thinking diagonal but could do vertically through the tooth with a countersink 
 
-![readme](/readmeid-5190.svg?v=3rvr7c)
+![readme](/readmeid-5190.svg?v=ncz0pvt)
 
 
 
-There should be teeth set into the bottom or curve of the bottom section.  All of the hollander wisdom suggets they should be at an angle across the bottom so I will perhaps cut those later by hand.  
-
-![readme](/readmeid-5188.svg?v=nx6qxop)
-
-
+There should be teeth set into the bottom or curve of the bottom section.  All of the hollander wisdom suggets they should be at an angle across the bottom so I will perhaps cut those later by hand. 
 
 
 
