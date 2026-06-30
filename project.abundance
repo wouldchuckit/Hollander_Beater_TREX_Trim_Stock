@@ -1761,7 +1761,7 @@
         },
         {
           "name": "BitDiameter",
-          "ioValue": 3.17
+          "ioValue": 3.175
         },
         {
           "name": "Passes",
@@ -1937,7 +1937,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
@@ -2013,7 +2013,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
@@ -2089,7 +2089,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
@@ -2173,7 +2173,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
@@ -2249,7 +2249,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
@@ -2325,7 +2325,7 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 3.17
+              "ioValue": 3.175
             },
             {
               "name": "Passes",
