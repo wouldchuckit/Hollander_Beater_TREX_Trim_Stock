@@ -29,7 +29,7 @@
 
 
 
- ### 
+ ### Asembly stack
 
 In this case I have 10 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
 
